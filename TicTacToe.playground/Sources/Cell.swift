@@ -60,17 +60,6 @@ extension CellPosition: CustomStringConvertible {
 
 public enum CellValue {
     case Empty, Nought, Cross
-    
-    public var opposite: CellValue {
-        switch(self) {
-        case .Empty:
-            return .Empty
-        case .Nought:
-            return .Nought
-        case .Cross:
-            return .Cross
-        }
-    }
 }
 
 // MARK: - CellValue: CustomStringConvertible

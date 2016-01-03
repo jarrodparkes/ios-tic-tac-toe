@@ -65,19 +65,6 @@ extension CellPosition: CustomStringConvertible {
 
 enum CellValue {
     case Empty, Nought, Cross
-    
-    // MARK: Properties
-    
-    var opposite: CellValue {
-        switch(self) {
-        case .Empty:
-            return .Empty
-        case .Nought:
-            return .Nought
-        case .Cross:
-            return .Cross
-        }
-    }
 }
 
 // MARK: - CellValue: CustomStringConvertible
