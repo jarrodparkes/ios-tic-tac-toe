@@ -13,7 +13,6 @@ public class AIPlayer: Player {
     // MARK: Properties
     
     public let strategy: StrategyType
-    public var bestPosition: CellPosition? = nil
     
     // MARK: Initializer
     
